@@ -5,11 +5,17 @@ function Mostrar()
 	var nombre;
     var edad;
     var espacio;
+    var mensaje1;
+    var mensaje2;
+    var mensaje3;
 
     nombre = document.getElementById("elNombre").value;
     edad = document.getElementById("laEdad").value;
     espacio = " ";
+    mensaje1 = "Usted se llama "
+    mensaje2 = "y tiene "
+    mensaje3 = "años"
 
-    alert (nombre + espacio  + edad);
+    alert (mensaje1 + nombre + espacio + mensaje2 + edad + espacio + mensaje3);
 }
 
